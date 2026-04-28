@@ -1,0 +1,29 @@
+Package: vmronly
+Type: Package
+Title: VM-Restricted Access to Microsoft Fabric
+Version: 1.0.0
+Author: UZIMA Data Team
+Maintainer: Derick Imbati <derick.imbati@aku.edu>
+Description: Provides secure, VM-locked access to Microsoft Fabric Lakehouse 
+    for authorized researchers. Enforces VM-only execution, Windows-based 
+    authentication, per-user table permissions, and VM-only data downloads.
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+Imports:
+    DBI,
+    odbc,
+    httr,
+    jsonlite,
+    openssl,
+    dplyr,
+    rlang,
+    cli,
+    lubridate
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/AKU-CDIO/vm_r_package_only_access
+BugReports: https://github.com/AKU-CDIO/vm_r_package_only_access/issues
